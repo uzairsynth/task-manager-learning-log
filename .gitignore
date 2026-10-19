@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Secrets and local config
+.env
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# Project data
+# tasks.db and tasks.json in the repo root are sample data with no personal
+# information and stay tracked (learning/05_sqlite.py needs tasks.db to run).
+# Running the scripts from inside learning/ creates stray copies there: ignore them.
+learning/tasks.db
+learning/tasks.json
+*.db-journal
